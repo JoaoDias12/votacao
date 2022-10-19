@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Votação</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="global.css" />
+
+  <body>
+    <section class="main">
+      <main>
+        <h1>Desfile</h1>
+      </main>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="fotos-swiper">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/foto1.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/foto2.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="images/foto3.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="Choose-Vote">
+      <div class="marca">
+        <img src="images/nike.png" alt="" />
+        <span id="nike">0</span>
+        <button id="clickCounter">Votar</button>
+      </div>
+
+      <div class="marca">
+        <img src="images/lacoste.png" alt="" />
+        <span id="lacoste">0</span>
+        <button id="clickCounterLacoste">Votar</button>
+      </div>
+      <div class="marca">
+        <img src="images/adidas.png" alt="" />
+        <span id="adidas">0</span>
+        <button id="clickCounterAdidas">Votar</button>
+      </div>
+    </section>
+
+    <section class="buttons">
+      <button id="resetCounter" class="btn btn-default">Reset</button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
